@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/projeto_web_1/assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inder&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+
+
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container navbar-inner">
+            <span class="navbar-brand">NutriBox</span>
+            <nav>
+                <ul class="navbar-links">
+                    <li><a href="#cardapio">Cardapio</a></li>
+                    <li><a href="#como-funciona">Como Funciona</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#assinar">Assinar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <!-- Hero Section  -->
+        <section class="hero">
+            <img src="/projeto_web_1/assets/images/hero.jpeg" alt="hero-img">
+        <div class="hero-content">
+            <p class="hero-pretitle">Alimentacao saudavel sem complicacao</p>
+            <h1 class="hero-title">Marmitas frecas na sua porta toda semana</h1>
+            <p class="hero-subtitle">Cardapio Balanceados, ingredientes fresco e entrega pontual. Assine e esqueca o estresse de conzinhar durante a semana.</p>
+            <a href="#cardapio" class="cta-button">Quero minha Nutribox</a>
+        </div>
+        </section>
+        
+        <!--Aqui os beneficios-->
+        <section class="beneficios-section">
+            <div class="container">
+                <ul class="beneficios-list">
+                    <li class="beneficios-item">
+                        <span class="beneficios-icon">🥗</span>
+                        <h2 class="beneficios-title">Ingredientes Frescos</h2>
+                        <p class="beneficios-desc">Selecionamos os melhores insumos toda semana</p>
+                    </li>
+                    <!--Aqui sera responsavel pelo delivery-->
+                    <li class="beneficios-item">
+                        <span class="beneficios-icon">🚚</span>
+                        <h2 class="beneficios-title">Entrega Pontual</h2>
+                        <p class="beneficios-desc">Receba toda segunda ate as 10h na sua prota</p>
+                    </li>
+                    <!--Aqui sera o Queimas de calorias-->
+                    <li class="beneficios-item">
+                        <span class="beneficios-icon">🔥</span>
+                        <h2 class="beneficios-title">Calorias Controladas</h2>
+                        <p class="beneficios-desc">Cardapio entre 400 e 800 kcal por marmita</p>
+                    </li>
+                    <!--Fidelidade-->
+                    <li class="beneficios-item">
+                        <span class="beneficios-icon">💳</span>
+                        <h2 class="beneficios-title">Sem fidelidade</h2>
+                        <p class="beneficios-desc">Cancele quando quiser, sem multas</p> 
+                    </li> 
+                </ul>
+            </div>
+        </section>
+
+
+        <!--Cardapio da Semana-->
+        <section class="menu-section" id="cardapio">
+            <div class="container">
+                <h2 class="menu-title">Cardapio Desta Semana</h2>
+                <p class="menu-subtitle">Pratos frescos, balanceados e prontos para aquecer.</p>
+            
+                <div class="menu-cards">
+                    <article class="menu-card">
+                    <img src="assets/images/card_1.jpeg" alt="Frango Grelhado com Quinoa" class="card-image">
+                        <div class="card-body">
+                            <div class="card-header">
+                                <span class="calorias">420 kcal</span>
+                                <h3 class="card-title">Frango Grelhado com Quinoa</h3>
+                            </div>
+                            <ul class="ingredientes-list">
+                                <li>Frango grelado</li>
+                                <li>Quinoa branca</li>
+                                <li>Brócolis no vapor</li>
+                                <li>Cenoura assada</li>
+                            </ul>
+                            <p class="preco-card">R$ 24,90</p>
+                        </div>
+                </article>
+                
+                <article class="menu-card">
+                    <img src="assets/images/card_2.jpeg" alt="Salmão com Legumes" class="card-image">
+                    <div class="card-body">
+                        <div class="card-header">
+                            <span class="calorias">510 kcal</span>
+                            <h3 class="card-title">Salmão com Legumes</h3>
+                        </div>
+                       
+                        <ul class="ingredientes-list">
+                            <li>Salmão ao forno</li>
+                            <li>Arroz integral</li>
+                            <li>Abobrinha</li>
+                            <li>Tomate confitado</li>
+                        </ul>
+                        <p class="preco-card">R$32,90</p>
+                    </div>
+                </article>
+                
+                <article class="menu-card">
+                    <img src="assets/images/card_3.jpeg" alt="Bowl Vegetariano" class="card-image">
+                    <div class="card-body">
+                        <div class="card-header">
+                            <span class="calorias">380 kcal</span>
+                            <h3 class="card-title">Bowl Vegetariano</h3>
+                        </div>
+                        
+                        <ul class="ingredientes-list">
+                            <li>Grão-de-bico</li>
+                            <li>Tabule</li>
+                            <li>Falafel</li>
+                            <li>Molho de tahine</li>
+                        </ul>
+                        <p class="preco-card">R$ 22,90</p>
+                    </div>
+                </article>
+                </div>
+            </div>
+        </section>
+        
+        <!--Como Funciona-->
+        <section class="como-section" id="como-funciona">
+            <div class="container">
+                <h2 class="como-title">Como Funciona</h2>
+                <p class="como-subtitle">Em três passos simples você começa a semana mais saudável.</p>           
+                <div class="como-steps">
+                    <div class="como-step">
+                        <span class="step-icon">01</span>
+                        <h3 class="step-title">Escolha seu plano</h3>
+                        <p class="step-desc">Selecione entre os planos semanal, quizenal ou mensal.</p>
+                    </div>
+                    
+                    <div class="como-connector"></div>
+                    
+                    <div class="como-step">
+                        <span class="step-icon">02</span>
+                        <h3 class="step-title">Receba em casa</h3>
+                        <p class="step-desc">Entregamos toda segunda-feira ate as 10h no seu endereço.</p>
+                    </div>
+                    
+                    <div class="como-connector"></div>
+
+                    <div class="como-step">
+                        <span class="step-icon">03</span>
+                        <h3 class="step-title">Aproveite sua semana</h3>
+                        <p class="step-desc">Aqeuca em 3 minutos e tenha uma refeicao equilibrada.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--Depoimentos-->
+        <section class="section-depoimentos" id="depoimentos">
+            <div class="container">
+                <h2 class="depoimento-title">O que nossos clientes dizem</h2>
+                <div class="depoimentos-row">
+                    <article class="depoimento-card">
+                        <p class="depoimento-texto">&ldquo;Assino a NutriBox ha tres meses e nao consigo mais imaginar a semana sem ela. As marmitas sao saborosas, as porcoes sao otimas e a entrega nunca atrasou. Recomendo demais!&rdquo;</p>
+                        <hr class="depoimentos-divisao">
+                        <div class="depoimento-autor">
+                            <img src="assets/images/autor1.jpg" alt="foto ana clara mentes" class="depoimento-foto">
+                            <span class="autor-nome">Ana Clara Mentes</span>                               
+                            </div>
+                    </article>
+
+                    <article class="depoimento-card">
+                        <p class="depoimento-texto">&ldquo;Trabalho home office e sempre acabava pedindo delivery de fast food. Desde que assinei a NutriBox comi muito melhor e ainda economizei. Vale cada centavo.&rdquo;</p>
+                        <hr class="depoimentos-divisao">
+                        <div class="depoimento-autor">
+                            <img src="assets/images/autor2.jpg" alt="foto Rafael Torres" class="depoimento-foto">
+                            <span class="autor-nome">Rafael Torres</span>                               
+                            </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <span class="navbar-brand">NutriBox</span>
+                <p class="footer-tagline">Acreditamos que comer bem não precisa ser díficil. Levamos saude e sabor ate a sua porta toda semana.</p>
+            </div>
+            <nav class="footer-nav">
+                <ul class="footer-links">
+                    <li><a href="#cardapio">Cardapio</a></li>
+                    <li><a href="#como-funciona">Como Funciona</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#assinar">Assinar</a></li>
+                    <li><a href="#politica-privacidade">Política de Privacidade</a></li>
+                </ul>
+                </nav>
+        
+            <div class="footer-contato">    
+                <ul>
+                    <li>Av. Prof Luiz Freire, 500, Cidade Universiratia - Recife-PE</li>
+                    <li><a href="mailto:nutribox@email.com.br">nutribox@email.com.br</a></li>
+                    <li><a href="tel:+5581999999999">(81) 99999-9999</a></li>
+                </ul>
+            </div>
+        </div>     
+        <div class="footer-copy">
+            <p>&copy; 2024 NutriBox. Todos os direitos reservados.</p>
+        </div>
+        
+    </footer>
+
+</body>
+</html>
